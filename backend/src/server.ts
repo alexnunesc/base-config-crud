@@ -1,8 +1,4 @@
-import dontenv from 'dotenv'; // load .env file, para que possamos utilizar as variáveis de ambiente.
-
-import App from './app';
-
-dontenv.config(); // importamos a classe App, para que possamos instanciar a aplicação.
+import App from './app'; // importamos a classe App, para que possamos instanciar a aplicação.
 
 const server = new App().app; // instanciamos a aplicação.
 
