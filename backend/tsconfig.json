@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "rootDir": "./src",
+  },
+  "include": [
+    "./src/**/*",
+    "*/.ts",
+    ".eslintrc.js",
+  ],
+  "exclude": ["node_modules"],
+}
